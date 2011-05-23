@@ -74,3 +74,4 @@ template "/var/zookeeper/myid" do
  variables(template_variables)
  source "myid.erb"
 end
+

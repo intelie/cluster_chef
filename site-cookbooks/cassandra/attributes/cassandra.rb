@@ -91,6 +91,7 @@ default[:cassandra][:request_scheduler_id]          = 'keyspace'
 # For install_from_release recipe
 cassversion = "0.7.5"
 default[:cassandra][:install_url] = "http://www.eng.lsu.edu/mirrors/apache/cassandra/#{cassversion}/apache-cassandra-#{cassversion}-bin.tar.gz"
+
 # For install_from_git
 default[:cassandra][:git_repo]                      = 'git://git.apache.org/cassandra.git'
 # until ruby gem is updated, use cdd239dcf82ab52cb840e070fc01135efb512799

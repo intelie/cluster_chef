@@ -4,7 +4,6 @@ REMOTE_FILE_URL_BASE="http://github.com/infochimps/cluster_chef/raw/version_2/co
 eval `cat /etc/lsb-release `
 export DEBIAN_FRONTEND=noninteractive
 
-apt-get update
 
 echo "`date` Installing base packages"
 apt-get install -y ruby ruby1.8-dev build-essential wget libruby-extras libruby1.8-extras runit runit-services
